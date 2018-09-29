@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="manifest" href="webserver1/favicon/manifest.json">
+  </head>
+  <body>
+    <form class="" >
+      <!-- <input type="text" name="name" value="" id="name"><br>
+      <input type="text" name="rollno" value="" id="rollno"><br>
+      <input type="text" name="email" value="" id="email"><br>
+ <button type="button" name="button" onclick="getDetails()">SUBMIT</button> -->
+<div class="mainDiv">
+  <h4>PERSONAL DETAILS</h4>
+  <div class="personalDiv">
+    <input type="text" name="name" value="" id="name" placeholder="Enter name">
+    <input type="text" name="rollno" value="" id="rollno" placeholder="Enter rollno">
+    <input type="text" name="email" value="" id="email" placeholder="Enter email">
+  </div>
+  <h4>CARRIER OBJECTIVE</h4>
+carrier objective:<input type="text" name="carrier objective" value="" id="co">
+
+  <h4>EDUCATIONAL DETAILS</h4>
+<div class="eduDiv">
+
+ <div class="sscDiv">
+   <select class="ssc" name="" id="sscValue">
+     <option value="cbse">cbse</option>
+      <option value="ssc">ssc</option>
+</select><br>
+<input type="radio" name="sscmarks" value="cgpa" id="sscmks">cgpa
+<input type="radio" name="sscmarks" value="percentage" id=sscmks1>percentage<br>
+percentage:<input type="text" name="percentage/cgpa" value=""  placeholder="percentage/cgpa" id="sscper"><br>
+year of pass:<input type="text" name="yop" value""  placeholder="yop" id="sscyop">
+</div>
+<div class="interDiv">
+  <select class="inter" name="" id="interValue">
+    <option value="inter">inter</option>
+     <option value="diploma">diploma</option>
+</select><br>
+<input type="radio" name="intermarks" value="cgpa" id="intermks">cgpa
+<input type="radio" name="intermarks" value="percentage" id="intermks1">percentage<br>
+percentage:<input type="text" name="percentage" value=""  placeholder="percentage" id="interper"><br>
+year of pass:<input type="text" name="yop" value""  placeholder="yop" id="interyop">
+</div>
+<div class="btechDiv">
+    <option value="btech" >Btech</option>
+     <select class="btech" name="" id="btechValue">
+        <option value="cse">cse</option>
+        <option value="ece">ece</option>
+        <option value="eee">eee</option>
+        <option value="civil">civil</option>
+        <option value="mech">mech</option>
+       <select><br>
+<input type="radio" name="btechmarks" value="cgpa" id="btechmks">cgpa
+<input type="radio" name="btechmarks" value="percentage" id="btechmks1">percentage<br>
+percentage:<input type="text" name="percentage" value="" id="btechper" placeholder="percentage"><br>
+year of pass:<input type="text" name="yop" value"" id="btechyop" placeholder="yop">
+</div>
+</div>
+
+</div>
+
+        </form>
+
+  </body>
+  <button type="button" name="button" onClick="getDetails()">SUBMIT</button>
+<script type="text/javascript" src="indexdb.js">
+
+</script>
+<script type="text/javascript">
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("sw.js");
+    console.log("serviceWorker registered successfully..");
+    err=>{
+      console.log("error occured in sw");
+    }
+  }
+</script>
+</html>

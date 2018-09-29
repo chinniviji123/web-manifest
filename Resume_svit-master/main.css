@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+}
+.mainDiv{
+  background: #90D6A6;
+  text-align: center;
+  padding: 2%;
+
+}
+.eduDiv{
+  display: flex;
+  background: pink;
+justify-content: space-between;
+}
+.sscDiv{
+  width: 30%;
+  background: #4AD833;
+  text-align: center;
+  border: solid black;
+}
+.interDiv{
+  width: 30%;
+  background: #339CD8;
+  text-align: center;
+  border: solid black;
+}
+.btechDiv{
+  width: 30%;
+  background: gray;
+ text-align: center;
+ border: solid black;
+}
+.personalDiv{
+  margin-bottom: 1%;
+}

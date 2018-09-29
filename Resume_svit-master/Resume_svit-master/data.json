@@ -1,0 +1,52 @@
+{
+"basics":{
+  "photo":"img.jpeg",
+  "name":"k.vijitha",
+  "phone":"0000000000",
+  "email":"kunuthuruvijitha26@gmail.com"
+
+},
+"skills":[
+{
+    "name":"programming languages",
+    "value":"c,c++,java"
+  },
+  {
+    "name":"operating systems",
+    "value":"Windows,Linux"
+  },
+    {
+      "name":"web technologies",
+    "value":"HTML,CSS,Java Script,Python"
+   }
+],
+"education":[
+  {
+    "course":"B.tech(computer science engineering)",
+    "college":[
+      "sri venkateswara institute of technology",
+      "2015-2019",
+      "65%"
+    ]
+  },
+  {
+    "course":"Intermediate(MPC)",
+    "college":[
+      "sri venkateswara institute of technology",
+      "2013-2015",
+      "65%"
+    ]
+  },
+{
+  "course":"SSC",
+  "college":[
+    "Z.P.High School",
+    "2012-2013",
+    "65%"
+  ]
+}
+]
+
+
+
+}
