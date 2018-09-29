@@ -1,0 +1,2 @@
+# web-manifest
+manifest offline
